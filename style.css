@@ -1,0 +1,1522 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  word-break: keep-all;
+  outline: 0px solid silver;
+}
+
+img {
+  width: 100px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.1px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 1000; 
+  font-size: 50px;
+  margin-top:15px
+}
+
+h2 {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+h4,
+h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+h4 {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+}
+
+h5 {
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+}
+
+a:link {
+  color: #666;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: red;
+}
+
+button {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+/* mobile start */
+
+
+.ppal {
+  height: 500px;
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/fut/tots/images/2023/06/wwc-23-homepage-hero-med-bg-7x2-xl-jpg.jpg.adapt.crop7x2.1920w.jpg') no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.ppal >header {
+  background-color: rgba(0, 0, 0, 0.164);
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.ppal>header>div {
+  color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.ppal header>:first-child {
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.ppal header>:first-child>:last-child {
+  display: flex;
+}
+
+.ppal header img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.ppal header div.fifainicial img {
+  width: 150px;
+  position: left;
+
+}
+.ppal header div.imgfifa img {
+  width: 400px;
+  position: absolute;
+  top: -90px;
+}
+
+.ppal header div.imgfifapg2 img {
+  width: 400px;
+  position: absolute;
+  top: -90px;
+}
+
+.ppal header div.imgfifapg3 img {
+  width: 400px;
+  position: absolute;
+  top: -90px;
+}
+
+.ppal header>:last-child {
+  width: 70%;
+  color: rgb(255, 255, 255);
+  text-align: left;
+
+  position: absolute;
+  top: 91%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ppal>:last-child p {
+  padding: 20px;
+}
+
+.sda {
+  height: 500px;
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/fut/tots/images/2023/06/wwc-23-homepage-hero-med-bg-7x2-xl-jpg.jpg.adapt.crop7x2.1920w.jpg') no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.sda >header {
+  background-color: rgba(0, 0, 0, 0.164);
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.sda>header>div {
+  color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.sda header>:first-child {
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sda header>:first-child>:last-child {
+  display: flex;
+}
+
+.sda header img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.sda header div.fifainicial img {
+  width: 150px;
+  position: left;
+
+}
+.sda header div.imgfifa img {
+  width: 400px;
+  position: absolute;
+  top: -90px;
+}
+
+.sda header div.imgfifapg2 img {
+  width: 400px;
+  position: absolute;
+  top: -90px;
+}
+
+.sda header div.imgfifapg3 img {
+  width: 400px;
+  position: absolute;
+  top: -90px;
+}
+
+.sda header>:last-child {
+  width: 70%;
+  color: rgb(255, 255, 255);
+  text-align: left;
+
+  position: absolute;
+  top: 91%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sda>:last-child p {
+  padding: 20px;
+}
+
+.about {
+  text-align: left;
+  padding: 80px 5%;
+}
+
+.about section * {
+  padding: 10px 0;
+}
+
+.about>:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about>:last-child div {
+  width: 100%;
+  padding: 100px 0;
+  margin: 0 0px;
+  position: static;
+  border-radius: 60px;
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 1.5s;
+
+}
+
+
+
+.about>:last-child div:hover {
+  border: 2px solid black;
+}
+
+
+
+.about>:last-child div img {
+  width: 2000px;
+  height: 600px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.about>:last-child div p {
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.about>:last-child div p:hover {
+  color: rgb(67, 67, 196);
+}
+
+.about>:last-child div div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+
+
+.new23-collection {
+  padding: 60px 10%;
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/world-cup/images/2022/11/fut23-hero-med-heroes-mg-7x2-xl.png.adapt.crop5x2.1455w.png') no-repeat;
+  background-position: center;
+  background-size: 0;
+  height: 300px;
+
+  position: relative;
+}
+
+.new23-collection div h2 {
+  font-size: 2rem;
+}
+
+.new23-collection>div {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 100%;
+  width: 70%;
+
+  cursor: pointer;
+  transition: 1.5s;
+
+  position: relative;
+  top: 70%;
+  right: 0%;
+  transform: translate(0%, -50%);
+}
+
+.new23-collection>div:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.new23-collection div div {
+  padding: 10px;
+}
+
+.new23-collection div div * {
+  padding: 8px 0;
+}
+
+.new23-collection div h3 {
+  text-transform: uppercase;
+}
+
+.new23-collection div button {
+  margin: 10px;
+}
+
+.new23-collection div div>:last-child {
+  display: none;
+}
+
+
+
+.new23-sign {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+
+
+.all-collection {
+  padding: 80px 5%;
+  text-transform: uppercase;
+  color: black;
+}
+
+.all-collection h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.all-collection div {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.all-collection div section {
+  height: 300px;
+  width: 50%;
+
+  position: relative;
+}
+
+.all-collection>div>:first-child {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/news/f23-hero-med-ted-lasso-7x2-xl.jpg.adapt.1456w.jpg') no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.all-collection>div>:nth-child(2) {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/athletes-and-ambassadors/f23-ambassadors-son-min-heung-16x9.jpg.adapt.crop16x9.652w.jpg') no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.all-collection>div>:nth-child(3) {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/athletes-and-ambassadors/f23-ambassadors-vinicius-jr-16x9.jpg.adapt.crop16x9.652w.jpg') no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.all-collection>div>:nth-child(4) {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/athletes-and-ambassadors/f23-ambassadors-alphonso-davies-16x9.jpg.adapt.crop16x9.652w.jpg') no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+
+.all-collection div section>div div {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-80%, -30%);
+}
+
+.all-collection div>section>div {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.all-collection div>section>div:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.all-collection div section button {
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+  padding: 5px 0;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.all-collection div section button:hover {
+  background: none;
+}
+
+
+
+
+.best {
+  padding: 90px 5%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.best h2{
+  margin-bottom: 50px;
+}
+
+.best>div {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.best div section {
+  width: 48%;
+  position: relative;
+
+}
+
+.best div section p {
+  padding: 3px 0;
+}
+
+.best>div>:first-child div>:nth-child(1),
+.best>div>:nth-child(2) div>:nth-child(1),
+.best>div>:nth-child(3) div>:nth-child(1),
+.best>div>:nth-child(4) div>:nth-child(1),
+.best>div>:nth-child(5) div>:nth-child(1),
+.best>div>:nth-child(6) div>:nth-child(1),
+.best>div>:nth-child(7) div>:nth-child(1),
+.best>div>:nth-child(8) div>:nth-child(1) {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: -10px 0;
+  position: left;
+  bottom: 19%;
+  left: 0%;
+}
+
+.best>div>:nth-child(2) div>:nth-child(1),
+.best>div>:nth-child(3) div>:nth-child(1),
+.best>div>:nth-child(4) div>:nth-child(1),
+.best>div>:nth-child(7) div>:nth-child(1),
+.best>div>:nth-child(8) div>:nth-child(1){
+  display: none;
+}
+
+
+.best>div>:first-child div:nth-child(2) {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/athletes-and-ambassadors/f23-ambassadors-joao-felix-16x9.jpg.adapt.crop16x9.652w.jpg');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.best>div>:first-child div:nth-child(2):hover {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/f23-announce-ticker-logo.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best>div>:nth-child(2) div:nth-child(2) {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/athletes-and-ambassadors/f23-ambassadors-christian-pulisic-16x9.jpg.adapt.crop16x9.652w.jpg');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best>div>:nth-child(2) div:nth-child(2):hover {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/f23-announce-ticker-logo.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best>div>:nth-child(3) div:nth-child(2) {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/athletes-and-ambassadors/f23-ambassadors-kai-havertz-16x9.jpg.adapt.crop16x9.652w.jpg');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best>div>:nth-child(3) div:nth-child(2):hover {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/f23-announce-ticker-logo.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best>div>:nth-child(4) div:nth-child(2) {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/athletes-and-ambassadors/f23-ambassadors-virgil-van-dijk-16x9.jpg.adapt.crop16x9.652w.jpg');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best>div>:nth-child(4) div:nth-child(2):hover {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/f23-announce-ticker-logo.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best>div>:nth-child(5) div:nth-child(2) {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/athletes-and-ambassadors/f23-ambassadors-jude-bellingham-16x9.jpg.adapt.crop16x9.652w.jpg');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best>div>:nth-child(5) div:nth-child(2):hover {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/f23-announce-ticker-logo.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best>div>:nth-child(6) div:nth-child(2) {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/athletes-and-ambassadors/f23-ambassadors-jack-grealish-16x9.jpg.adapt.crop16x9.652w.jpg');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best>div>:nth-child(6) div:nth-child(2):hover {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/f23-announce-ticker-logo.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best>div>:nth-child(7) div:nth-child(2) {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/athletes-and-ambassadors/f23-ambassadors-chloe-kelly-16x9.jpg.adapt.crop16x9.652w.jpg');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best>div>:nth-child(7) div:nth-child(2):hover {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/f23-announce-ticker-logo.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best>div>:nth-child(8) div:nth-child(2) {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/athletes-and-ambassadors/f23-ambassadors-catarina-macario-16x9.jpg.adapt.crop16x9.652w.jpg');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best>div>:nth-child(8) div:nth-child(2):hover {
+  background: url('https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/common/f23-announce-ticker-logo.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+/*best2*/
+
+.best2 {
+  padding: 90px 5%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.best2 h2{
+  margin-bottom: 50px;
+}
+
+.best2>div {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.best2 div section {
+  width: 31%;
+  position: relative;
+
+}
+
+.best2 div section p {
+  padding: 3px 0;
+}
+
+.best2>div>:first-child div>:nth-child(1),
+.best2>div>:nth-child(2) div>:nth-child(1),
+.best2>div>:nth-child(3) div>:nth-child(1),
+.best2>div>:nth-child(4) div>:nth-child(1),
+.best2>div>:nth-child(5) div>:nth-child(1),
+.best2>div>:nth-child(6) div>:nth-child(1),
+.best2>div>:nth-child(7) div>:nth-child(1),
+.best2>div>:nth-child(8) div>:nth-child(1) {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  padding: -10px 0;
+  position: left;
+  bottom: 19%;
+  left: 0%;
+}
+
+.best2>div>:nth-child(2) div>:nth-child(1),
+.best2>div>:nth-child(3) div>:nth-child(1),
+.best2>div>:nth-child(4) div>:nth-child(1),
+.best2>div>:nth-child(7) div>:nth-child(1),
+.best2>div>:nth-child(8) div>:nth-child(1){
+  display: none;
+}
+
+
+.best2>div>:first-child div:nth-child(2) {
+  background: url('imagenes/1.jpg');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.best2>div>:first-child div:nth-child(2):hover {
+  background: url('imagenes/1de1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best2>div>:nth-child(2) div:nth-child(2) {
+  background: url('imagenes/2.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best2>div>:nth-child(2) div:nth-child(2):hover {
+  background: url('imagenes/2de2.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best2>div>:nth-child(3) div:nth-child(2) {
+  background: url('imagenes/3.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best2>div>:nth-child(3) div:nth-child(2):hover {
+  background: url('imagenes/3de3.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best2>div>:nth-child(4) div:nth-child(2) {
+  background: url('imagenes/4.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best2>div>:nth-child(4) div:nth-child(2):hover {
+  background: url('imagenes/4de4.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best2>div>:nth-child(5) div:nth-child(2) {
+  background: url('imagenes/5.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best2>div>:nth-child(5) div:nth-child(2):hover {
+  background: url('imagenes/55.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best2>div>:nth-child(6) div:nth-child(2) {
+  background: url('imagenes/6.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best2>div>:nth-child(6) div:nth-child(2):hover {
+  background: url('imagenes/66.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best2>div>:nth-child(7) div:nth-child(2) {
+  background: url('imagenes/7.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best2>div>:nth-child(7) div:nth-child(2):hover {
+  background: url('imagenes/77.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best2>div>:nth-child(8) div:nth-child(2) {
+  background: url('imagenes/8.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best2>div>:nth-child(8) div:nth-child(2):hover {
+  background: url('imagenes/88.png');
+  background-position: center;
+  background-size: cover;
+}
+
+/*best3*/
+
+.best3 {
+  padding: 90px 5%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.best3 h2{
+  margin-bottom: 50px;
+}
+
+.best3>div {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.best3 div section {
+  width: 31%;
+  position: relative;
+
+}
+
+.best3 div section p {
+  padding: 3px 0;
+}
+
+.best3>div>:first-child div>:nth-child(1),
+.best3>div>:nth-child(2) div>:nth-child(1),
+.best3>div>:nth-child(3) div>:nth-child(1),
+.best3>div>:nth-child(4) div>:nth-child(1),
+.best3>div>:nth-child(5) div>:nth-child(1),
+.best3>div>:nth-child(6) div>:nth-child(1),
+.best3>div>:nth-child(7) div>:nth-child(1),
+.best3>div>:nth-child(8) div>:nth-child(1),
+.best3>div>:nth-child(9) div>:nth-child(1) {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  padding: -10px 0;
+  position: left;
+  bottom: 19%;
+  left: 0%;
+}
+
+.best3>div>:nth-child(2) div>:nth-child(1),
+.best3>div>:nth-child(3) div>:nth-child(1),
+.best3>div>:nth-child(4) div>:nth-child(1),
+.best3>div>:nth-child(7) div>:nth-child(1),
+.best3>div>:nth-child(8) div>:nth-child(1),
+.best3>div>:nth-child(9) div>:nth-child(1){
+  display: none;
+}
+
+
+.best3>div>:first-child div:nth-child(2) {
+  background: url('imagenes/vini.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.best3>div>:first-child div:nth-child(2):hover {
+  background: url('imagenes/1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best3>div>:nth-child(2) div:nth-child(2) {
+  background: url('imagenes/son.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best3>div>:nth-child(2) div:nth-child(2):hover {
+  background: url('imagenes/1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best3>div>:nth-child(3) div:nth-child(2) {
+  background: url('imagenes/davies.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best3>div>:nth-child(3) div:nth-child(2):hover {
+  background: url('imagenes/1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best3>div>:nth-child(4) div:nth-child(2) {
+  background: url('imagenes/catarina.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best3>div>:nth-child(4) div:nth-child(2):hover {
+  background: url('imagenes/1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best3>div>:nth-child(5) div:nth-child(2) {
+  background: url('imagenes/chloe.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best3>div>:nth-child(5) div:nth-child(2):hover {
+  background: url('imagenes/1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best3>div>:nth-child(6) div:nth-child(2) {
+  background: url('imagenes/jack.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best3>div>:nth-child(6) div:nth-child(2):hover {
+  background: url('imagenes/1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best3>div>:nth-child(7) div:nth-child(2) {
+  background: url('imagenes/belling.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best3>div>:nth-child(7) div:nth-child(2):hover {
+  background: url('imagenes/1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.best3>div>:nth-child(8) div:nth-child(2) {
+  background: url('imagenes/van.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best3>div>:nth-child(8) div:nth-child(2):hover {
+  background: url('imagenes/1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.best3>div>:nth-child(9) div:nth-child(2) {
+  background: url('imagenes/kai.png');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.best3>div>:nth-child(9) div:nth-child(2):hover {
+  background: url('imagenes/1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.notice {
+  display: none;
+}
+
+
+
+
+.pop>:nth-child(4) {
+  font-size: 0.5rem;
+  transition: 0.5s;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pop>:nth-child(4) span {
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.pop>:nth-child(4) span:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.pop p {
+  padding: 10px 0 0;
+}
+
+.pop>:last-child {
+  font-size: 0.5rem;
+}
+
+
+
+
+
+.sns {
+  text-align: center;
+  padding: 10px 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sns section div{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  line-height: 100px;
+  text-transform: uppercase;
+  opacity: 0;
+
+  cursor: pointer;
+  transition: 0.5s;
+
+  position: absolute;
+}
+
+.sns section div:hover{
+  opacity: 0.8;
+}
+
+.sns section img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+
+
+
+.last {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.last section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last section div {
+  width: 100%;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid black;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.last section div:hover {
+  background-color: #eee;
+
+}
+
+
+
+footer {
+  text-align: center;
+}
+
+footer * {
+  padding: 10px 0;
+  border: 1px solid black;
+}
+
+footer p {
+  font-size: 0.5rem;
+}
+
+
+
+/* laptop start */
+
+@media screen and (min-width: 1366px) {
+
+  main {
+    height: 800px;
+  }
+
+
+
+  .about>:last-child {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+
+
+  .new23-collection div div>:last-child {
+    display: block;
+  }
+
+
+
+  .all-collection div {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
+  .all-collection div section {
+    height: 600px;
+  }
+
+  .all-collection div section>div div {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-90%, -30%);
+  }
+
+
+
+
+  .best {
+    padding: 80px 5%;
+    text-align: center;
+  }
+
+  .best>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .best div section {
+    margin-bottom: 0px;
+    width: 10px;
+    
+  }
+
+  .best div section 
+
+  .best>div>:first-child div:nth-child(2),  .best>div>:nth-child(2) div:nth-child(2), .best>div>:nth-child(3) div:nth-child(2), .best>div>:nth-child(4) div:nth-child(2), .best>div>:nth-child(5) div:nth-child(2), .best>div>:nth-child(6) div:nth-child(2), .best>div>:nth-child(7) div:nth-child(2), .best>div>:nth-child(8) div:nth-child(2){
+    height: 450px;
+  }
+
+  .best>div>:first-child div>:nth-child(1),
+  .best>div>:nth-child(2) div>:nth-child(1),
+  .best>div>:nth-child(3) div>:nth-child(1),
+  .best>div>:nth-child(4) div>:nth-child(1),
+  .best>div>:nth-child(5) div>:nth-child(1),
+  .best>div>:nth-child(6) div>:nth-child(1),
+  .best>div>:nth-child(7) div>:nth-child(1),
+  .best>div>:nth-child(8) div>:nth-child(1) {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 10px 0;
+    top: 100%;
+    position: absolute;
+    bottom: 11.5%;
+    left: 0%;
+  }
+
+/*best2*/
+
+.best2 {
+  padding: 80px 5%;
+  text-align: center;
+}
+
+.best2>div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.best2 div section {
+  margin-bottom: 0px;
+  width: 10px;
+  
+}
+
+.best2 div section 
+
+.best2>div>:first-child div:nth-child(2),  .best2>div>:nth-child(2) div:nth-child(2), .best2>div>:nth-child(3) div:nth-child(2), .best2>div>:nth-child(4) div:nth-child(2), .best2>div>:nth-child(5) div:nth-child(2), .best2>div>:nth-child(6) div:nth-child(2), .best2>div>:nth-child(7) div:nth-child(2), .best2>div>:nth-child(8) div:nth-child(2){
+  height: 450px;
+}
+
+.best2>div>:first-child div>:nth-child(1),
+.best2>div>:nth-child(2) div>:nth-child(1),
+.best2>div>:nth-child(3) div>:nth-child(1),
+.best2>div>:nth-child(4) div>:nth-child(1),
+.best2>div>:nth-child(5) div>:nth-child(1),
+.best2>div>:nth-child(6) div>:nth-child(1),
+.best2>div>:nth-child(7) div>:nth-child(1),
+.best2>div>:nth-child(8) div>:nth-child(1) {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 10px 0;
+  top: 100%;
+  position: absolute;
+  bottom: 11.5%;
+  left: 0%;
+}
+
+/*best3*/
+
+.best3 {
+  padding: 80px 5%;
+  text-align: center;
+}
+
+.best3>div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.best3 div section {
+  margin-bottom: 0px;
+  width: 10px;
+  
+}
+
+.best3 div section 
+
+.best3>div>:first-child div:nth-child(2),  .best3>div>:nth-child(2) div:nth-child(2), .best3>div>:nth-child(3) div:nth-child(2), .best3>div>:nth-child(4) div:nth-child(2), .best3>div>:nth-child(5) div:nth-child(2), .best3>div>:nth-child(6) div:nth-child(2), .best3>div>:nth-child(7) div:nth-child(2), .best3>div>:nth-child(8) div:nth-child(2){
+  height: 450px;
+}
+
+.best3>div>:first-child div>:nth-child(1),
+.best3>div>:nth-child(2) div>:nth-child(1),
+.best3>div>:nth-child(3) div>:nth-child(1),
+.best3>div>:nth-child(4) div>:nth-child(1),
+.best3>div>:nth-child(5) div>:nth-child(1),
+.best3>div>:nth-child(6) div>:nth-child(1),
+.best3>div>:nth-child(7) div>:nth-child(1),
+.best3>div>:nth-child(8) div>:nth-child(1) {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 10px 0;
+  top: 100%;
+  position: absolute;
+  bottom: 11.5%;
+  left: 0%;
+}
+
+
+  .notice {
+    display: block;
+    text-align: center;
+    background-color: #eee;
+    padding: 80px 0;
+  }
+
+  .notice table {
+    border-collapse: collapse;
+    border: none;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .notice table tr td {
+    padding: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+  }
+
+  .notice table tr>:nth-child(3) {
+    text-align: left;
+  }
+
+  .notice table tr:nth-child(1) {
+    font-weight: bold;
+    color: rgb(20, 20, 153);
+
+
+  }
+
+  .notice table tr {
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .notice table tr:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+
+
+
+  .pop>:first-child>:first-child {
+    position: absolute;
+
+    top: 50%;
+    left: 20%;
+  }
+
+  .pop>:first-child>:last-child {
+    position: absolute;
+
+    top: 50%;
+    right: 20%;
+  }
+
+  .pop>:nth-child(3) {
+    background: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA2MjZfMTkz%2FMDAxNjg3Nzc4MjQ0ODcw.Bn36VqFvNuXop_XMHiXfRpmJ-26Ym_UQjvLbgLp_Qfgg.uvVwWL4pNqn7UVgLOz4PQrn4YAuwVxVwxkrKW9mtNJMg.JPEG.wendy9598%2FIMG_3356.jpg&type=sc960_832') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    margin: 0 auto;
+    height: 500px;
+  }
+
+  .pop>:nth-child(4) {
+    font-size: 1rem;
+  }
+
+
+
+}
+
+/* end */
+
+#primary_nav_wrap{
+  
+	color: #000000dc;
+  
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:right;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:600;
+	font-size:10px;
+	line-height:32px;
+	padding:0 07px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:right;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ffffff
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left: 50%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
